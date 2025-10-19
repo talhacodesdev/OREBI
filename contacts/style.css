@@ -8,3 +8,67 @@
 }
 
 /* color variable */
+#contact-form{
+  padding-top:124px;
+  padding-bottom:140px;
+}
+.contact-form__top{
+        font-family: "DM Sans", sans-serif;
+        margin-bottom:125px;
+}
+.contact-form__top__h1{
+        font-size: 49px;
+        line-height: 100%;
+        font-weight: 700;
+        color:var(--black-color)
+        
+    }
+.contact-form__top__li{
+        font-size: 12px;
+        line-height: 100%;
+        font-weight: 400;
+        color:var(--sonic-silver)
+        
+    }
+
+ .form-container {
+
+    }
+ .form__title{
+        font-size: 39px;
+        line-height: 100%;
+        font-weight: 700;
+        color:var(--black-color);
+        margin-bottom:42px;
+ }
+ .custom-label{
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 700;
+  color:var(--black-color) !important;
+ }
+    .form-control {
+      border: none !important;
+      border-bottom: 1px solid #F0F0F0 !important;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .form-control:focus {
+      border-color: #000;
+      box-shadow: none;
+    }
+    .custom__form__btn{
+      font-size: 14px;
+      line-height:100%;
+      font-weight: 700;
+      font-family: "DM Sans", sans-serif;
+      background-color:var(--black-color) !important;
+      color:white;
+      padding:16px 85px;
+    }
+
+    /* map design */
+
+    #location{
+      margin-bottom:140px;
+    }
