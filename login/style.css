@@ -1,3 +1,6 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
 /* color variable */
 
 :root {
@@ -8,3 +11,166 @@
 }
 
 /* color variable */
+
+/* default css */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Geist Mono', monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--quaternary);
+  border: none;
+}
+
+/* default css */
+
+/* reusable css */
+
+.heading-1 {
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.heading-2 {
+  font-size: 39px;
+  font-weight: bold;
+}
+
+.heading-3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.heading-4 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.heading-5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading-6 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+/* reusable css */
+
+/* Heading Section Style */
+/* login heading */
+.heading-section {
+  margin: 80px 0;
+}
+
+.login-heading__sub-title {
+  font-size: 12px;
+  color: var(--sonic-silver);
+  max-width: 644px;
+}
+
+.login-heading__details {
+  padding: 60px 0;
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--sonic-silver);
+}
+
+.login-heading-border {
+  border-bottom: 2px solid var(--white-smoke);
+}
+
+/*  Returning Section Style */
+.login-heading__title {
+  padding-bottom: 42px;
+}
+
+.returning-heading {
+  display: flex;
+  column-gap: 250px;
+  padding-bottom: 29px;
+}
+
+.returning__email-id {
+  color: var(--sonic-silver);
+}
+
+.pass-dot-wrapper {
+  display: flex;
+}
+
+.pass-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--sonic-silver);
+  margin: 8px 0 23px;
+}
+
+.login-returning-border {
+  border-bottom: 2px solid var(--white-smoke);
+  width: 350px;
+  margin-bottom: 29px;
+}
+
+.returning-btn {
+  width: 220px;
+  height: 50px;
+  border: 2px solid var(--dark-gray);
+  border-radius: 5px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 70px;
+
+  &:hover {
+    background-color: var(--sonic-silver);
+    color: white;
+  }
+}
+
+.returning-btn a {
+  text-decoration: none;
+}
+
+/* Customer Section */
+.customer-heading__title {
+  padding-top: 50px;
+}
+
+.customer-heading__details {
+  font-size: 14px;
+  line-height: 30px;
+  color: var(--sonic-silver);
+  padding-top: 38px;
+  padding-bottom: 50px;
+}
+
+.returning-btn--modi {
+  margin-bottom: 140px;
+}
