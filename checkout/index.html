@@ -17,7 +17,66 @@
 
     <title>OREBI</title>
 </head>
+<style>
+    #checkout{
+        padding-top: 124px;
+    }
+    .checkout__top{
+        margin-bottom: 127px;
+    }
+    .checkout__top__h1{
+        font-size: 49px;
+        font-weight: 700;
+        line-height: 100%;
+        color: var(--black-color);
+        font-family: "DM Sans", sans-serif;
+    }
+    .checkout__top__tag{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 100%;
+        color: #6D6D60;
+        font-family: "DM Sans", sans-serif;
+    }
+    .checkout__coupon{
+        margin-bottom: 119px;
+    }
 
+    /* form design */
+      .billing-form {
+      
+    }
+    .billing-form__h3{
+         font-size: 39px;
+        font-weight: 700;
+        line-height: 100%;
+        color: var(--black-color);
+        margin-bottom: 42px;
+        font-family: "DM Sans", sans-serif;
+    }
+    .form-label2 {
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--black-color);
+      font-family: "DM Sans", sans-serif;
+    }
+    .form-control, .form-select {
+      border-radius: 0;
+      border: none !important;
+      border-bottom: 1px solid #F0F0F0 !important;
+      padding: 0.75rem;
+      font-size: 0.95rem;
+    }
+    h3 {
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    #additional-info{
+        padding: 129px 0px;
+    }
+
+</style>
 <body>
 
     <!-- Navbar  -->
@@ -50,7 +109,6 @@
         </div>
     </nav>
     <!-- Navbar  -->
-
     <!-- Bottom Navbar -->
     <nav class="navbar navbar-expand border-0  py-2 bottom-navbar">
         <div class="container justify-content-between align-items-center">
@@ -90,12 +148,112 @@
     </nav>
     <!-- Bottom Navbar -->
 
-    <!-- Content -->
-    <!-- Replace with your content -->
-    <div class="container d-flex justify-content-center align-items-center" style="height: 50vh;">
-        <h1 class="heading-2">(WRITE YOUR CONTENT HERE)</h1>
+    
+   
+<section id="checkout">
+    <div class="container">
+        <div class="checkout__top">
+            <h1 class="checkout__top__h1">Checkout</h1>
+            <div>
+                <span><a class="checkout__top__tag">Home</a></span> > <span><a class="checkout__top__tag">checkout</a></span>
+            </div>
+        </div>
+        <div class="checkout__coupon">
+            <p><span class="text-muted"> Have a coupon?</span><a> Click here to enter your code</a></p>
+        </div>
+
+        <!-- add form -->
+
+        <div class="row">
+            <div class="col-md-8">
+                 <div class="container billing-form">
+                 <h3 class="billing-form__h3">Billing Details</h3>
+    <form>
+
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <label for="firstName" class="form-label2">First Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+        </div>
+        <div class="col-md-6 mb-5">
+          <label for="lastName" class="form-label2">Last Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label for="company" class="form-label2">Company Name (optional)</label>
+        <input type="text" class="form-control" id="company" placeholder="Company Name">
+      </div>
+
+      <div class="mb-5">
+        <label for="country" class="form-label2">Country <span class="text-danger">*</span></label>
+        <select class="form-select" id="country" required>
+          <option value="">Please select</option>
+          <option>United States</option>
+          <option>United Kingdom</option>
+          <option>Canada</option>
+          <option>Australia</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="address1" class="form-label2">Street Address <span class="text-danger">*</span></label>
+        <input type="text" class="form-control mb-2" id="address1" placeholder="House number and street name" required>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment, suite, unit etc. (optional)">
+      </div>
+
+      <div class="mb-3">
+        <label for="city" class="form-label2">Town/City <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="city" placeholder="Town/City" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="county" class="form-label2">County (optional)</label>
+        <input type="text" class="form-control" id="county" placeholder="County">
+      </div>
+
+      <div class="mb-3">
+        <label for="postcode" class="form-label2">Post Code <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="postcode" placeholder="Post Code" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="phone" class="form-label2">Phone <span class="text-danger">*</span></label>
+        <input type="tel" class="form-control" id="phone" placeholder="Phone" required>
+      </div>
+
+      <div class="mb-4">
+        <label for="email" class="form-label2">Email Address <span class="text-danger">*</span></label>
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+      </div>
+
+      
+
+    </form>
+  </div>
+
+            </div>
+        </div>
+
+        </div>
+</section>
+<section id="additional-info">
+
+    <div class="container">
+
     </div>
-    <!-- Content -->
+
+</section>
+
+
+
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer class="py-5 footer">
