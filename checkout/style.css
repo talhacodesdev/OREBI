@@ -1,5 +1,5 @@
 /* color variable */
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root {
   --black-color: #262626;
   --sonic-silver: #767676;
@@ -7,4 +7,99 @@
   --white-smoke: #f5f5f3;
 }
 
+
 /* color variable */
+ #checkout{
+        padding-top: 124px;
+    }
+    .checkout__top{
+        margin-bottom: 127px;
+    }
+    .checkout__top__h1{
+        font-size: 49px;
+        font-weight: 700;
+        line-height: 100%;
+        color: var(--black-color);
+        font-family: "DM Sans", sans-serif;
+    }
+    .checkout__top__tag{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 100%;
+        color: #6D6D60;
+        font-family: "DM Sans", sans-serif;
+    }
+    .checkout__coupon{
+        margin-bottom: 119px;
+    }
+
+    /* form design */
+    
+    .billing-form__h3{
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 100%;
+        color: var(--black-color);
+        margin-bottom: 42px;
+        font-family: "DM Sans", sans-serif;
+    }
+    .form-label2 {
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--black-color);
+      font-family: "DM Sans", sans-serif;
+    }
+    .form-control, .form-select {
+      border-radius: 0;
+      border: none !important;
+      border-bottom: 1px solid #F0F0F0 !important;
+      padding: 0.75rem;
+      font-size: 0.95rem;
+    }
+    h3 {
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    #additional-info{
+        padding: 129px 0px;
+    }
+    .additional-info__area__h3{
+        font-size: 39px;
+        font-weight: 700;
+        line-height: 100%;
+        color: var(--black-color);
+        margin-bottom: 42px; 
+        font-family: "DM Sans", sans-serif;
+    }
+
+    /* bank section */
+
+    
+        .form-check-label {
+            font-size: 1.25rem; /* Slightly larger font for the method name */
+            font-weight: 500;
+        }
+        .card-body {
+            padding: 0.75rem 1rem; /* Adjust padding for the light background box */
+        }
+        .btn-dark {
+            background-color: #212529 !important; /* Ensure the button is dark */
+            border-color: #212529 !important;
+            padding: 0.6rem 1.2rem;
+        }
+        .header-text {
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            text-align:end;
+        }
+        #bank-section{
+            padding-top: 60px;
+            padding-bottom: 140px;
+        }
+
+.form-check-input:checked {
+    background-color: black !important;
+    border-color: white !important;
+}

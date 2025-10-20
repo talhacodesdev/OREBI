@@ -17,7 +17,9 @@
 
     <title>OREBI</title>
 </head>
-
+<style>
+   
+</style>
 <body>
 
     <!-- Navbar  -->
@@ -50,7 +52,6 @@
         </div>
     </nav>
     <!-- Navbar  -->
-
     <!-- Bottom Navbar -->
     <nav class="navbar navbar-expand border-0  py-2 bottom-navbar">
         <div class="container justify-content-between align-items-center">
@@ -90,12 +91,199 @@
     </nav>
     <!-- Bottom Navbar -->
 
-    <!-- Content -->
-    <!-- Replace with your content -->
-    <div class="container d-flex justify-content-center align-items-center" style="height: 50vh;">
-        <h1 class="heading-2">(WRITE YOUR CONTENT HERE)</h1>
+    
+   
+<!-- checkout section -->
+ 
+<section id="checkout">
+    <div class="container">
+        <div class="checkout__top">
+            <h1 class="checkout__top__h1">Checkout</h1>
+            <div>
+                <span><a class="checkout__top__tag">Home</a></span> > <span><a class="checkout__top__tag">checkout</a></span>
+            </div>
+        </div>
+        <div class="checkout__coupon">
+            <p><span class="text-muted"> Have a coupon?</span><a> Click here to enter your code</a></p>
+        </div>
+
+        <!-- form section  -->
+
+        <div class="row">
+            <div class="col-md-8">
+                 <div class="container billing-form">
+                 <h3 class="billing-form__h3">Billing Details</h3>
+    <form>
+
+      <div class="row">
+        <div class="col-md-6 mb-5">
+          <label for="firstName" class="form-label2">First Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+        </div>
+        <div class="col-md-6 mb-5">
+          <label for="lastName" class="form-label2">Last Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label for="company" class="form-label2">Company Name (optional)</label>
+        <input type="text" class="form-control" id="company" placeholder="Company Name">
+      </div>
+
+      <div class="mb-5">
+        <label for="country" class="form-label2">Country <span class="text-danger">*</span></label>
+        <select class="form-select" id="country" required>
+          <option value="">Please select</option>
+          <option>United States</option>
+          <option>United Kingdom</option>
+          <option>Canada</option>
+          <option>Australia</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="address1" class="form-label2">Street Address <span class="text-danger">*</span></label>
+        <input type="text" class="form-control mb-2" id="address1" placeholder="House number and street name" required>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment, suite, unit etc. (optional)">
+      </div>
+
+      <div class="mb-3">
+        <label for="city" class="form-label2">Town/City <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="city" placeholder="Town/City" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="county" class="form-label2">County (optional)</label>
+        <input type="text" class="form-control" id="county" placeholder="County">
+      </div>
+
+      <div class="mb-3">
+        <label for="postcode" class="form-label2">Post Code <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="postcode" placeholder="Post Code" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="phone" class="form-label2">Phone <span class="text-danger">*</span></label>
+        <input type="tel" class="form-control" id="phone" placeholder="Phone" required>
+      </div>
+
+      <div class="mb-4">
+        <label for="email" class="form-label2">Email Address <span class="text-danger">*</span></label>
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+      </div>
+
+      
+
+    </form>
+  </div>
+
+        </div>
     </div>
-    <!-- Content -->
+</div>
+</section>
+<!-- additional-info -->
+<section id="additional-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="additional-info__area">
+                    <h3 class="additional-info__area__h3">Additional Information</h3>
+                    <div class="mb-4">
+                        <label for="message" class="form-label1 fw-semibold">Other Notes (optional)</label>
+                        <textarea class="form-control ps-0" id="message" rows="4" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- order section -->
+<section>
+    <div class="container">
+        <div class="row">
+      <div class="col-md-6">
+        <div class="">
+          <div class="">
+            <h4 class="fw-bold mb-5">Your Order</h4>
+            <table class="table align-middle table-bordered">
+              <thead class="">
+                <tr>
+                  <th scope="col" class="p-5">Product</th>
+                  <th scope="col" class="text-end p-5">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="p-5">Product name × 1</td>
+                  <td class="text-end p-5">389.99 $</td>
+                </tr>
+                <tr>
+                  <th class="p-5">Subtotal</th>
+                  <td class="text-end p-5">389.99 $</td>
+                </tr>
+                <tr class="">
+                  <th class="p-5">Total</th>
+                  <td class="text-end fw-bold p-5">389.99 $</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!-- bank-section -->
+<section id="bank-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                   <div class="header-text">ata bad rakhben</div>
+
+    <form>
+        <div class="form-check mb-4">
+            <input class="form-check-input" type="radio" name="paymentMethod" id="bankRadio" checked>
+            <label class="form-check-label" for="bankRadio">
+                Bank
+            </label>
+        </div>
+
+        <div class="card bg-light border-0 mb-4">
+            <div class="card-body">
+                Pay via Bank: you can pay with your credit card if you don't have a Bank account.
+            </div>
+        </div>
+
+        <div class="form-check mb-5">
+            <input class="form-check-input" type="radio" name="paymentMethod" id="bank2Radio">
+            <label class="form-check-label" for="bank2Radio">
+                Bank 2
+            </label>
+            <small class="text-muted d-block mt-2">
+                Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#" class="text-decoration-none">privacy policy</a>.
+            </small>
+        </div>
+
+        <button type="submit" class="btn btn-dark">
+            Proceed to Bank
+        </button>
+    </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
 
     <!-- Footer -->
     <footer class="py-5 footer">
