@@ -2,9 +2,9 @@
 
 | Page | Assigned To |
 |----------|--------------|
-| 🛍️ **Shop**, 🔐 **Login**, 📝 **Sign Up** | **Joel** |
+| 🛍️ ~**Shop**~, 🔐 ~**Login**~, 📝 **Sign Up** | **Joel** |
 | ℹ️ **About** | **Sajid** |
-| 📞 **Contacts**, 💳 **Checkout**, ⚠️ **404 Page** | **Hridoy** |
+| 📞 ~**Contacts**~, 💳 ~**Checkout**~, ⚠️ **404 Page** | **Hridoy** |
 | 🏠 **Home** | **Antor** |
 | 👤 **Account**, 🛒 **Cart** | **Shihabul** |
 | 📦 **Product** | **Talha** |
