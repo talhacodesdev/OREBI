@@ -1,5 +1,5 @@
 /* color variable */
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root {
   --black-color: #262626;
   --sonic-silver: #767676;
@@ -8,3 +8,14 @@
 }
 
 /* color variable */
+ .color-option {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+    .color-option.active {
+      border: 2px solid #000;
+    }
