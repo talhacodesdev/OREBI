@@ -18,64 +18,7 @@
     <title>OREBI</title>
 </head>
 <style>
-    #checkout{
-        padding-top: 124px;
-    }
-    .checkout__top{
-        margin-bottom: 127px;
-    }
-    .checkout__top__h1{
-        font-size: 49px;
-        font-weight: 700;
-        line-height: 100%;
-        color: var(--black-color);
-        font-family: "DM Sans", sans-serif;
-    }
-    .checkout__top__tag{
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 100%;
-        color: #6D6D60;
-        font-family: "DM Sans", sans-serif;
-    }
-    .checkout__coupon{
-        margin-bottom: 119px;
-    }
-
-    /* form design */
-      .billing-form {
-      
-    }
-    .billing-form__h3{
-         font-size: 39px;
-        font-weight: 700;
-        line-height: 100%;
-        color: var(--black-color);
-        margin-bottom: 42px;
-        font-family: "DM Sans", sans-serif;
-    }
-    .form-label2 {
-      font-weight: 500;
-      font-size: 16px;
-      color: var(--black-color);
-      font-family: "DM Sans", sans-serif;
-    }
-    .form-control, .form-select {
-      border-radius: 0;
-      border: none !important;
-      border-bottom: 1px solid #F0F0F0 !important;
-      padding: 0.75rem;
-      font-size: 0.95rem;
-    }
-    h3 {
-      font-weight: 600;
-      margin-bottom: 1.5rem;
-    }
-
-    #additional-info{
-        padding: 129px 0px;
-    }
-
+   
 </style>
 <body>
 
@@ -150,6 +93,8 @@
 
     
    
+<!-- checkout section -->
+ 
 <section id="checkout">
     <div class="container">
         <div class="checkout__top">
@@ -162,7 +107,7 @@
             <p><span class="text-muted"> Have a coupon?</span><a> Click here to enter your code</a></p>
         </div>
 
-        <!-- add form -->
+        <!-- form section  -->
 
         <div class="row">
             <div class="col-md-8">
@@ -233,17 +178,102 @@
     </form>
   </div>
 
+        </div>
+    </div>
+</div>
+</section>
+<!-- additional-info -->
+<section id="additional-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="additional-info__area">
+                    <h3 class="additional-info__area__h3">Additional Information</h3>
+                    <div class="mb-4">
+                        <label for="message" class="form-label1 fw-semibold">Other Notes (optional)</label>
+                        <textarea class="form-control ps-0" id="message" rows="4" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- order section -->
+<section>
+    <div class="container">
+        <div class="row">
+      <div class="col-md-6">
+        <div class="">
+          <div class="">
+            <h4 class="fw-bold mb-5">Your Order</h4>
+            <table class="table align-middle table-bordered">
+              <thead class="">
+                <tr>
+                  <th scope="col" class="p-5">Product</th>
+                  <th scope="col" class="text-end p-5">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="p-5">Product name × 1</td>
+                  <td class="text-end p-5">389.99 $</td>
+                </tr>
+                <tr>
+                  <th class="p-5">Subtotal</th>
+                  <td class="text-end p-5">389.99 $</td>
+                </tr>
+                <tr class="">
+                  <th class="p-5">Total</th>
+                  <td class="text-end fw-bold p-5">389.99 $</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!-- bank-section -->
+<section id="bank-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                   <div class="header-text">ata bad rakhben</div>
+
+    <form>
+        <div class="form-check mb-4">
+            <input class="form-check-input" type="radio" name="paymentMethod" id="bankRadio" checked>
+            <label class="form-check-label" for="bankRadio">
+                Bank
+            </label>
+        </div>
+
+        <div class="card bg-light border-0 mb-4">
+            <div class="card-body">
+                Pay via Bank: you can pay with your credit card if you don't have a Bank account.
             </div>
         </div>
 
+        <div class="form-check mb-5">
+            <input class="form-check-input" type="radio" name="paymentMethod" id="bank2Radio">
+            <label class="form-check-label" for="bank2Radio">
+                Bank 2
+            </label>
+            <small class="text-muted d-block mt-2">
+                Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#" class="text-decoration-none">privacy policy</a>.
+            </small>
         </div>
-</section>
-<section id="additional-info">
 
-    <div class="container">
-
+        <button type="submit" class="btn btn-dark">
+            Proceed to Bank
+        </button>
+    </form>
+            </div>
+        </div>
     </div>
-
 </section>
 
 
