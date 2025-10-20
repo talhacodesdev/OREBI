@@ -1,3 +1,6 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+
 /* color variable */
 
 :root {
@@ -8,3 +11,88 @@
 }
 
 /* color variable */
+
+/* default css */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Geist Mono', monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--quaternary);
+  border: none;
+}
+
+/* default css */
+
+/* reusable css */
+
+.heading-1 {
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.heading-2 {
+  font-size: 39px;
+  font-weight: bold;
+}
+
+.heading-3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.heading-4 {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.heading-5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading-6 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+/* reusable css */
+
+/* Top Section Style */
+.top-heading__sub-title {
+  font-size: 12px;
+  color: var(--sonic-silver);
+}
+
+/* Product Section Style */
+.product-section {
+  padding: 100px 0;
+}
+
+.product-img-wrapper {
+  display: flex;
+}
