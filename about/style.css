@@ -1,5 +1,37 @@
 /* color variable */
 
+  
+    .about-header {
+      text-align: left;
+      padding: 80px 0 40px;
+    }
+    .about-header h1 {
+      font-size: 48px;
+      font-weight: 700;
+      color: #222;
+    }
+    .about-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .about-section .btn-dark {
+      margin-top: 15px;
+      border-radius: 0;
+    }
+    .info-section {
+      text-align: center;
+      padding: 60px 0;
+    }
+    .info-section h5 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 40px 0;
+    }
+
 :root {
   --black-color: #262626;
   --sonic-silver: #767676;
