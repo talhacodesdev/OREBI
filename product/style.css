@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
 
 /* color variable */
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 :root {
   --black-color: #262626;
   --sonic-silver: #767676;
@@ -11,6 +11,7 @@
 }
 
 /* color variable */
+<<<<<<< HEAD
 
 /* default css */
 
@@ -96,3 +97,80 @@ button {
 .product-img-wrapper {
   display: flex;
 }
+=======
+ .color-option {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      margin-right: 8px;
+      cursor: pointer;
+    }
+    .color-option.active {
+      border: 2px solid #000;
+    }
+      #product-details{
+        padding: 50px 0px;
+    }
+    .product-details__h3{
+        font-size: 39px;
+        line-height: 100%;
+        font-weight: 700;
+        font-family: "DM san";
+    }
+    .current-price{
+        font-size: 20px;
+        line-height: 100%;
+        font-weight: 700;
+        font-family: "DM san";
+
+    }
+    .colorpic{
+        width: 20px;
+        height: 20px;
+        opacity: 20%;
+        border-radius: 100%;
+        display: inline-block;
+        padding-top: 4px;
+        
+    }
+     .one{
+        background-color: red;
+     }
+    .two{
+        background-color: rgb(207, 185, 185);
+    }
+    .three{
+        background-color: rgb(51, 4, 4);
+    }
+    .four{
+        background-color: rgb(89, 64, 64);
+    }
+    .custom-select{
+        width: 150px !important;
+        display:inline;
+    }
+    .custom-btn{
+        padding: 16px 50px;
+        font-size: 14px;
+        line-height: 100%;
+        font-weight: 700;
+        font-family: "DM san";
+        border: 1px solid black;
+        transition: 1s all ease;
+    }
+    .custom-btn:hover{
+        color:white;
+        background-color: black;
+    }
+    .star-margin{
+        margin-top:18px;
+        margin-bottom:24px;
+    }
+   .custom-label{
+        font-size: 16px;
+        line-height: 23%;
+        font-weight: 700;
+        font-family: "DM san";
+   }
+>>>>>>> main
