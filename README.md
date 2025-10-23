@@ -6,7 +6,7 @@
 | ℹ️ ~**About**~ | **Sajid** |
 | 📞 ~**Contacts**~, 💳 ~**Checkout**~, ⚠️ ~**404 Page**~, 📦 ~**Product**~  | **Hridoy** |
 | 🏠 **Home** | **Antor** |
-| 👤 **Account**, 🛒 **Cart** | **Shihabul** |
+| 👤 ~**Account**~, 🛒 ~**Cart**~ | **Shihabul** |
 
 ---
 
