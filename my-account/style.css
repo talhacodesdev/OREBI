@@ -8,3 +8,54 @@
 }
 
 /* color variable */
+
+
+
+.my-account {
+  margin-top: 104px;
+
+  height: 64px;
+  font-weight: 700;
+  font-size: 49px;
+  color: var(--black-color);
+
+}
+
+.accountnav {
+  margin-top: 11px;
+  height: 16px;
+
+}
+
+.accound-details {
+  display: flex;
+  margin-top: 127px;
+  margin-bottom: 140px;
+
+}
+
+.accound-list {}
+
+.accound-para {
+  margin-left: 39px;
+margin-right: -203px;
+}
+
+
+.list {
+  color: var(--black-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  width: 234px;
+  height: 51px;
+ 
+  border: 1px solid var(--white-smoke);
+}
+
+.list1 {
+  width: 234px;
+  height: 51px;
+  color: var(--dark-gray);
+  border: 2px solid var(--white-smoke);
+}
